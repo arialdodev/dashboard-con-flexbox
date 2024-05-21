@@ -66,10 +66,44 @@ body{
     margin: 39px 25px 15px 5px;
 }
 .block-left__hello{
+    display: block;
+}
+.hello__block-hello-guys{
     display: flex;
-    width: 264px;
-    height: 145px;
-    background-color: chocolate;
+    width: 100%;
+    height: 102px;
+    border-radius: 30px 30px ;
+    background-color: #F5F5F7;
+}
+.block-hello-guys__text{
+    width: 50%;
+    height: 100%;
+}
+.text__text-hello{
+    font-family: PoetsenOne;
+    color: #0C0B0B;
+    font-size: 24px;
+}
+.text__text-best{
+    font-family: Roboto;
+    color: #7B7B7B;
+    margin-top: -14px;
+    font-size: 16px;
+}
+.block-hello-guys__man{
+    width: 40%;
+    height: 100%;
+}
+.block-hello-guys__man-img{
+    height: 23px;
+    width: 23px;
+}
+.hello__english-level{
+    width: 272px;
+    height: 70px;
+    margin-top: 12px;
+    border-radius: 30px 30px ;
+    background-color: #F5F5F7;
 }
 .block-left__courses{
     display: block;
@@ -80,7 +114,7 @@ body{
 }
 
 .content__block-right{
-    margin: 10px 7px 15px 5px;
+    margin: 10px 7px 15px 0px;
 }
 .block-right__search{
     display: flex;
