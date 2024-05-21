@@ -1,0 +1,97 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    display: flex;
+}
+
+.container__sidebar{   
+    padding: 11px 7px 7px 5px; 
+    margin: 0px 30px 0px 0px;
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: -2px 15px 20px 4px #0C0B0B;
+    background-color: #0c0b0b;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 98%;
+    position: relative;
+}
+.sidebar__logo{
+    display: flex;
+    margin-left: 6px;
+    margin-bottom: 44px;
+}
+#sidebar__logo-img{
+    width: 36px;
+}
+.sidebar__center{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.sidebar__center > img{
+    width: 26px;
+    height: 26px;
+    margin-bottom: 15px;
+}
+
+.sidebar__leave{
+    display: flex;
+    height: 70px;
+    align-items: center;
+    margin-top: 45px;
+    padding-left: 8px;
+}
+#sidebar__leave-img{
+    width: 32px;
+    height: 29px;
+}
+
+.container__content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 73px;
+}
+.content__block-left{
+    margin: 39px 25px 15px 5px;
+}
+.block-left__hello{
+    display: flex;
+    width: 264px;
+    height: 145px;
+    background-color: chocolate;
+}
+.block-left__courses{
+    display: block;
+    width: 264px;
+    height: 300px;
+    margin: 5px 0px 0px 0px;
+    background-color: darkgoldenrod;
+}
+
+.content__block-right{
+    margin: 10px 7px 15px 5px;
+}
+.block-right__search{
+    display: flex;
+    width: 264px;
+    height: 120px;
+    background-color:deeppink;
+}
+.block-right__experience{
+    display: block;
+    width: 264px;
+    height: 300px;
+    margin: 5px 0px 0px 0px;
+    background-color: darkmagenta;
+}
