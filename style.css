@@ -48,7 +48,7 @@ body{
     display: flex;
     height: 70px;
     align-items: center;
-    margin-top: 45px;
+    margin-top: 23px;
     padding-left: 8px;
 }
 #sidebar__leave-img{
@@ -71,43 +71,107 @@ body{
 .hello__block-hello-guys{
     display: flex;
     width: 100%;
-    height: 102px;
+    height: 105px;
     border-radius: 30px 30px ;
     background-color: #F5F5F7;
 }
 .block-hello-guys__text{
-    width: 50%;
+    width: 60%;
     height: 100%;
 }
 .text__text-hello{
     font-family: PoetsenOne;
     color: #0C0B0B;
     font-size: 24px;
+    margin-left: 3px;
+    margin-top: 25px;
 }
 .text__text-best{
     font-family: Roboto;
     color: #7B7B7B;
-    margin-top: -14px;
-    font-size: 16px;
+    margin-top: -22px;  
+    font-size: 15px;
+    margin-left: 3px;
 }
 .block-hello-guys__man{
     width: 40%;
     height: 100%;
 }
 .block-hello-guys__man-img{
-    height: 23px;
-    width: 23px;
+    height: 123px;
+    width: 110px;
+    margin-top: -17px;
+    margin-left: -24px;
 }
-.hello__english-level{
-    width: 272px;
-    height: 70px;
-    margin-top: 12px;
-    border-radius: 30px 30px ;
+
+.hello__block-level{
+    display: flex;
+    height: auto;   
+    max-width: 280px;
+    flex-wrap: wrap;
+    margin-top: 11px;
+    padding: 5px;
+    border-radius: 15px 15px;
     background-color: #F5F5F7;
 }
+.block-level__xbox-block{
+    display: flex;
+    width: 19%;
+    height: 57px;
+    border-radius: 10px 10px;
+    justify-content: center;
+    background-color: #ffffff;
+}
+.block-level__xbox-img{
+    width: 38px;
+}
+.block-level__block-text{
+    width: 44%;
+    height: 49%;
+    margin-left: 5px;
+    background-color: #F5F5F7;
+}
+.block-text__text-english{
+    font-family: PoetsenOne;
+    margin-top: 10px;
+    font-size: 19px;
+    color: #000000;
+}
+.block-text__text-name{
+    font-family: Roboto;
+    margin-top: -18px;
+    color: #0C0B0B;
+}
+.hello__block-percentage{
+    display: flex;
+}
+.block-level__percentage-img{
+    width: 40px;
+    margin: 10px 10px 10px 20px;
+}
+.block-level__block-continue{
+    margin: -23px 12px -15px 0px;
+    color: white;
+}
+.block-continue__continue-text{
+    display: flex;
+    width: 100px;
+    height: 36px;
+    font-size: 22px;
+    border-radius: 13px 13px;
+    align-items: center;
+    justify-content: center;
+    font-family: PoetsenOne;
+    background: black;
+}
+.block-level__arrows-img{
+    height: 36px;
+    margin-left: 9px;
+}
+
 .block-left__courses{
     display: block;
-    width: 264px;
+    width: 271px;
     height: 300px;
     margin: 5px 0px 0px 0px;
     background-color: darkgoldenrod;
