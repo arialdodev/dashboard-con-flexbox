@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body{
     margin: 0%;
     padding: 0%;
@@ -80,14 +82,14 @@ body{
     height: 100%;
 }
 .text__text-hello{
-    font-family: PoetsenOne;
+    font-family: "Poetsen One";
     color: #0C0B0B;
-    font-size: 24px;
+    font-size: 22px;
     margin-left: 3px;
     margin-top: 25px;
 }
 .text__text-best{
-    font-family: Roboto;
+    font-family: "Roboto";
     color: #7B7B7B;
     margin-top: -22px;  
     font-size: 15px;
@@ -104,78 +106,117 @@ body{
     margin-left: -24px;
 }
 
-.hello__block-level{
+
+.hello__content-level{
     display: flex;
-    height: auto;   
-    max-width: 280px;
-    flex-wrap: wrap;
-    margin-top: 11px;
-    padding: 5px;
-    border-radius: 15px 15px;
+    margin: 10px 0px 0px 0px;
+    width: 262px;
+    height: 53px;
+}
+.content-level__block-level{
+    display: flex;
+    width: 76%;
+    height: 36px;
+    padding: 4px;
+    border-radius: 7px 7px;
     background-color: #F5F5F7;
 }
 .block-level__xbox-block{
     display: flex;
-    width: 19%;
-    height: 57px;
+    position: relative;
+    width: 52px;
+    padding: 3px;
+    left: -2px;
     border-radius: 10px 10px;
     justify-content: center;
     background-color: #ffffff;
 }
 .block-level__xbox-img{
-    width: 38px;
+    width: 25px;
 }
 .block-level__block-text{
-    width: 44%;
-    height: 49%;
-    margin-left: 5px;
+    width: 70%;
+    height: 76%;
+    margin-left: 4px;
     background-color: #F5F5F7;
 }
 .block-text__text-english{
-    font-family: PoetsenOne;
-    margin-top: 10px;
-    font-size: 19px;
+    font-family: "Poetsen One";
+    margin-top: 6px;
+    font-size: 12px;
     color: #000000;
 }
 .block-text__text-name{
-    font-family: Roboto;
-    margin-top: -18px;
+    font-family: "Roboto";
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: -12px;
     color: #0C0B0B;
 }
-.hello__block-percentage{
-    display: flex;
-}
 .block-level__percentage-img{
-    width: 40px;
-    margin: 10px 10px 10px 20px;
+    position: relative;
+    width: 22px;
+    height: 30px;
+    left: -5px;
+    margin-top: 6px;
 }
 .block-level__block-continue{
-    margin: -23px 12px -15px 0px;
     color: white;
 }
 .block-continue__continue-text{
     display: flex;
-    width: 100px;
-    height: 36px;
-    font-size: 22px;
-    border-radius: 13px 13px;
+    width: 59px;
+    height: 25px;
+    font-size: 13px;
+    margin-top: 7px;
+    margin-left: -2px;
+    border-radius: 7px 7px;
     align-items: center;
     justify-content: center;
-    font-family: PoetsenOne;
+    font-family: "Poetsen One";
     background: black;
 }
-.block-level__arrows-img{
-    height: 36px;
-    margin-left: 9px;
+.content-level__arrows-img{
+    width: 50px;
+    margin-top: -3px;
+    margin-left: 3px;
 }
+
 
 .block-left__courses{
     display: block;
-    width: 271px;
+    width: 262px;
     height: 300px;
-    margin: 5px 0px 0px 0px;
-    background-color: darkgoldenrod;
+    margin-top: -6px;
 }
+.courses__block-course{
+    margin-bottom: 6px;
+}
+.block-course__text-course{
+    font-size: 17px;
+    font-family: "Baloo Bhaijaan 2";
+    font-weight: 700;
+    margin: 0px;
+}
+.block-left__all-courses{
+    display: flex;
+    width: 100%;
+    margin-top: -6px;
+}
+.all-courses__text-courses{  
+    color: #000000;
+    font-size: 15px; 
+    font-weight: 600;
+    font-family: "Baloo Bhaijaan 2";   
+    margin-top: 0px;
+}
+.all-courses__languages-text{
+    font-size: 15px;
+    font-family: "Baloo Bhaijaan 2";
+    margin: 0px 0px 0px 10px;
+    color: #CDCCCC;
+}
+
 
 .content__block-right{
     margin: 10px 7px 15px 0px;
