@@ -61,11 +61,12 @@ body{
 .container__content{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
     margin-left: 73px;
 }
 .content__block-left{
-    margin: 39px 25px 15px 5px;
+    margin-top: 40px;
+    width: 90%;
+    max-width: 400px;
 }
 .block-left__hello{
     display: block;
@@ -82,15 +83,19 @@ body{
     height: 100%;
 }
 .text__text-hello{
+    display: flex  ;
     font-family: "Poetsen One";
     color: #0C0B0B;
+    justify-content: center;
     font-size: 22px;
-    margin-left: 3px;
+    margin-left: -8px;
     margin-top: 25px;
 }
 .text__text-best{
+    display: flex;
     font-family: "Roboto";
     color: #7B7B7B;
+    justify-content: center;
     margin-top: -22px;  
     font-size: 15px;
     margin-left: 3px;
@@ -110,40 +115,38 @@ body{
 .hello__content-level{
     display: flex;
     margin: 10px 0px 0px 0px;
-    width: 262px;
+    width: 100%;
     height: 53px;
+    justify-content: space-between ;
 }
 .content-level__block-level{
     display: flex;
-    width: 76%;
-    height: 36px;
+    justify-content: space-around;
+    width: 100%;
+    height: 41px;
     padding: 4px;
     border-radius: 7px 7px;
     background-color: #F5F5F7;
 }
 .block-level__xbox-block{
     display: flex;
-    position: relative;
-    width: 52px;
+    width: 40px;
+    height: 92%;
     padding: 3px;
-    left: -2px;
     border-radius: 10px 10px;
     justify-content: center;
     background-color: #ffffff;
 }
 .block-level__xbox-img{
-    width: 25px;
+    width: 29px;
 }
 .block-level__block-text{
-    width: 70%;
-    height: 76%;
-    margin-left: 4px;
     background-color: #F5F5F7;
 }
 .block-text__text-english{
     font-family: "Poetsen One";
-    margin-top: 6px;
-    font-size: 12px;
+    margin-top: 5px;
+    font-size: 14px;
     color: #000000;
 }
 .block-text__text-name{
@@ -153,12 +156,12 @@ body{
     margin-top: -12px;
     color: #0C0B0B;
 }
-.block-level__percentage-img{
-    position: relative;
-    width: 22px;
-    height: 30px;
-    left: -5px;
-    margin-top: 6px;
+.block-level__block-percentage{
+    margin-top: 10px;
+    width: 12%;
+}
+.block-percentage__percentage-img{
+    width: 21px;
 }
 .block-level__block-continue{
     color: white;
@@ -168,8 +171,7 @@ body{
     width: 59px;
     height: 25px;
     font-size: 13px;
-    margin-top: 7px;
-    margin-left: -2px;
+    margin: 7px 0px 0px 0px;
     border-radius: 7px 7px;
     align-items: center;
     justify-content: center;
@@ -177,7 +179,7 @@ body{
     background: black;
 }
 .content-level__arrows-img{
-    width: 50px;
+    width: 17%;
     margin-top: -3px;
     margin-left: 3px;
 }
@@ -185,9 +187,7 @@ body{
 
 .block-left__courses{
     display: block;
-    width: 262px;
-    height: 300px;
-    margin-top: -6px;
+    margin-top: -6px;   
 }
 .courses__block-course{
     margin-bottom: 6px;
@@ -202,19 +202,117 @@ body{
     display: flex;
     width: 100%;
     margin-top: -6px;
+    justify-content: space-between;
 }
 .all-courses__text-courses{  
-    color: #000000;
     font-size: 15px; 
     font-weight: 600;
     font-family: "Baloo Bhaijaan 2";   
     margin-top: 0px;
+    color: #000000;
 }
 .all-courses__languages-text{
     font-size: 15px;
+    font-weight: 600;
     font-family: "Baloo Bhaijaan 2";
     margin: 0px 0px 0px 10px;
     color: #CDCCCC;
+}
+.courses__language-blocks{
+    height: 231px;
+}
+.language-blocks__block-html{
+    display: flex;
+    justify-content: space-between;
+    height: 24%;
+    padding: 5px;
+    border-radius: 8px 8px;
+    background-color: #F5F5F7;
+}
+.block-html__block-img-html{
+    display: flex;
+    width: 57px;
+    height: 54px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px;
+    background-color: #FFFFFF;
+}
+.block-img-html__img-html{
+    width: 27px;
+}
+.block-html__html-text-block{
+    margin-left: 3px;
+    width: 80px;
+}
+.html-text-block__html-text{
+    font-family: "Baloo Bhaijaan 2";
+    font-weight: 600;
+    margin: 8px 0px 0px 0px ;
+    font-size: 15px;
+}
+.html-text-block__gay-text{
+    font-family: "roboto";
+    margin: -4px 0px 0px 0px;
+    font-size: 14px;
+}
+.block-html__major-block{
+    width: 128px;
+    margin: 0px 3px 0px 3px;
+}
+.major-block__block-up{
+    display: flex;
+    justify-content: space-between;
+    height: 50%;    
+}
+.block-up__clock-block{
+    margin-top: 2px;
+}
+.clock-block__img-clock{
+    width: 20px;
+}
+.block-up__time-block{
+    display: flex;
+    align-items: center;
+    margin-right: 13px;
+}
+.time-block__text-time{
+    font-family: "roboto";
+    font-size: 11px;
+    margin: 0px;
+}
+.block-up__flame-block{
+
+}
+.flame-block__img-flame{
+    width: 16px;
+}
+.block-up__note-block{
+    display: flex;
+    align-items: center;
+}
+.note-block__number-note{
+    font-family: "roboto";
+    font-size: 12px;
+    margin: 0px;
+}
+.major-block__block-down{
+    display: flex;
+    justify-content: center;
+    height: 50%;
+}
+.block-down__block-view{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 72px;
+    border-radius: 8px 8px;
+    background-color: #000000;
+}
+.block-view__text-view{
+    margin: 0px;
+    font-size: 10px;
+    color: #FFFFFF;
 }
 
 
@@ -234,3 +332,32 @@ body{
     margin: 5px 0px 0px 0px;
     background-color: darkmagenta;
 }
+
+
+
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+    body{
+        background-color: red;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    body{
+        background-color: blue;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+
+ }
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { }
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {  }
