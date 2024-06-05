@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-body{
+body {
     margin: 0%;
     padding: 0%;
 }
-.container{
+
+.container {
     display: flex;
 }
 
-.container__sidebar{   
-    padding: 11px 7px 7px 5px; 
+.container__sidebar {
+    padding: 11px 7px 7px 5px;
     margin: 0px 30px 0px 0px;
     border-radius: 0px 10px 10px 0px;
     box-shadow: -2px 15px 20px 4px #0C0B0B;
@@ -18,72 +19,83 @@ body{
     top: 0;
     bottom: 0;
 }
-.sidebar{
+
+.sidebar {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 98%;
     position: relative;
 }
-.sidebar__logo{
+
+.sidebar__logo {
     display: flex;
     margin-left: 6px;
     margin-bottom: 44px;
 }
-#sidebar__logo-img{
+
+#sidebar__logo-img {
     width: 36px;
 }
-.sidebar__center{
+
+.sidebar__center {
     display: flex;
     height: 100%;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
-.sidebar__center > img{
+
+.sidebar__center>img {
     width: 26px;
     height: 26px;
     margin-bottom: 15px;
 }
 
-.sidebar__leave{
+.sidebar__leave {
     display: flex;
     height: 70px;
     align-items: center;
     margin-top: 23px;
     padding-left: 8px;
 }
-#sidebar__leave-img{
+
+#sidebar__leave-img {
     width: 32px;
     height: 29px;
 }
 
-.container__content{
+.container__content {
     display: flex;
     flex-wrap: wrap;
     margin-left: 73px;
 }
-.content__block-left{
+
+.content__block-left {
     margin-top: 40px;
     width: 90%;
     max-width: 400px;
 }
-.block-left__hello{
+
+.block-left__hello {
     display: block;
 }
-.hello__block-hello-guys{
+
+.hello__block-hello-guys {
     display: flex;
     width: 100%;
     height: 105px;
-    border-radius: 30px 30px ;
+    border-radius: 30px 30px;
     background-color: #F5F5F7;
 }
-.block-hello-guys__text{
+
+.block-hello-guys__text {
     width: 60%;
     height: 100%;
 }
-.text__text-hello{
-    display: flex  ;
+
+.text__text-hello {
+    display: flex;
     font-family: "Poetsen One";
     color: #0C0B0B;
     justify-content: center;
@@ -91,20 +103,23 @@ body{
     margin-left: -8px;
     margin-top: 25px;
 }
-.text__text-best{
+
+.text__text-best {
     display: flex;
     font-family: "Roboto";
     color: #7B7B7B;
     justify-content: center;
-    margin-top: -22px;  
+    margin-top: -22px;
     font-size: 15px;
     margin-left: 3px;
 }
-.block-hello-guys__man{
+
+.block-hello-guys__man {
     width: 40%;
     height: 100%;
 }
-.block-hello-guys__man-img{
+
+.block-hello-guys__man-img {
     height: 123px;
     width: 110px;
     margin-top: -17px;
@@ -112,14 +127,15 @@ body{
 }
 
 
-.hello__content-level{
+.hello__content-level {
     display: flex;
     margin: 10px 0px 0px 0px;
     width: 100%;
     height: 53px;
-    justify-content: space-between ;
+    justify-content: space-between;
 }
-.content-level__block-level{
+
+.content-level__block-level {
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -128,7 +144,8 @@ body{
     border-radius: 7px 7px;
     background-color: #F5F5F7;
 }
-.block-level__xbox-block{
+
+.block-level__xbox-block {
     display: flex;
     width: 40px;
     height: 92%;
@@ -137,36 +154,44 @@ body{
     justify-content: center;
     background-color: #ffffff;
 }
-.block-level__xbox-img{
+
+.block-level__xbox-img {
     width: 29px;
 }
-.block-level__block-text{
+
+.block-level__block-text {
     background-color: #F5F5F7;
 }
-.block-text__text-english{
+
+.block-text__text-english {
     font-family: "Poetsen One";
     margin-top: 5px;
     font-size: 14px;
     color: #000000;
 }
-.block-text__text-name{
+
+.block-text__text-name {
     font-family: "Roboto";
     font-size: 10px;
     font-weight: 400;
     margin-top: -12px;
     color: #0C0B0B;
 }
-.block-level__block-percentage{
+
+.block-level__block-percentage {
     margin-top: 10px;
     width: 12%;
 }
-.block-percentage__percentage-img{
+
+.block-percentage__percentage-img {
     width: 21px;
 }
-.block-level__block-continue{
+
+.block-level__block-continue {
     color: white;
 }
-.block-continue__continue-text{
+
+.block-continue__continue-text {
     display: flex;
     width: 59px;
     height: 25px;
@@ -178,58 +203,67 @@ body{
     font-family: "Poetsen One";
     background: black;
 }
-.content-level__arrows-img{
+
+.content-level__arrows-img {
     width: 17%;
     margin-top: -3px;
     margin-left: 3px;
 }
 
 
-.block-left__courses{
+.block-left__courses {
     display: block;
-    margin-top: -6px;   
+    margin-top: -6px;
 }
-.courses__block-course{
+
+.courses__block-course {
     margin-bottom: 6px;
 }
-.block-course__text-course{
+
+.block-course__text-course {
     font-size: 17px;
     font-family: "Baloo Bhaijaan 2";
     font-weight: 700;
     margin: 0px;
 }
-.block-left__all-courses{
+
+.block-left__all-courses {
     display: flex;
     width: 100%;
     margin-top: -6px;
     justify-content: space-between;
 }
-.all-courses__text-courses{  
-    font-size: 15px; 
+
+.all-courses__text-courses {
+    font-size: 15px;
     font-weight: 600;
-    font-family: "Baloo Bhaijaan 2";   
+    font-family: "Baloo Bhaijaan 2";
     margin-top: 0px;
     color: #000000;
 }
-.all-courses__languages-text{
+
+.all-courses__languages-text {
     font-size: 15px;
     font-weight: 600;
     font-family: "Baloo Bhaijaan 2";
     margin: 0px 0px 0px 10px;
     color: #CDCCCC;
 }
-.courses__language-blocks{
-    height: 231px;
-}
-.language-blocks__block-html{
+
+
+#courses-language {}
+
+#language-blocks {
     display: flex;
     justify-content: space-between;
     height: 24%;
     padding: 5px;
     border-radius: 8px 8px;
+    margin-bottom: 8px;
     background-color: #F5F5F7;
 }
-.block-html__block-img-html{
+
+.language-blocks__block-img-logo {
     display: flex;
     width: 57px;
     height: 54px;
@@ -238,70 +272,84 @@ body{
     border-radius: 10px 10px;
     background-color: #FFFFFF;
 }
-.block-img-html__img-html{
-    width: 27px;
+
+.block-img-logo__images-languages {
+    width: 33px;
 }
-.block-html__html-text-block{
+
+.language-blocks__languages-text-block {
     margin-left: 3px;
     width: 80px;
 }
-.html-text-block__html-text{
+
+.languages-text-block__name-languages-text {
     font-family: "Baloo Bhaijaan 2";
     font-weight: 600;
-    margin: 8px 0px 0px 0px ;
+    margin: 8px 0px 0px 0px;
     font-size: 15px;
 }
-.html-text-block__gay-text{
+
+.languages-text-block__description-text {
     font-family: "roboto";
     margin: -4px 0px 0px 0px;
     font-size: 14px;
 }
-.block-html__major-block{
+
+.language-blocks__major-block {
     width: 128px;
     margin: 0px 3px 0px 3px;
 }
-.major-block__block-up{
+
+.major-block__block-up {
     display: flex;
     justify-content: space-between;
-    height: 50%;    
+    height: 50%;
 }
-.block-up__clock-block{
+
+.block-up__clock-block {
     margin-top: 2px;
 }
-.clock-block__img-clock{
+
+.clock-block__img-clock {
     width: 20px;
 }
-.block-up__time-block{
+
+.block-up__time-block {
     display: flex;
     align-items: center;
-    margin-right: 13px;
+    margin-right: 11px;
 }
-.time-block__text-time{
+
+.time-block__text-time {
     font-family: "roboto";
     font-size: 11px;
     margin: 0px;
 }
-.block-up__flame-block{
 
-}
-.flame-block__img-flame{
+.block-up__flame-block {}
+
+.flame-block__img-flame {
     width: 16px;
 }
-.block-up__note-block{
+
+.block-up__note-block {
     display: flex;
     align-items: center;
 }
-.note-block__number-note{
+
+.note-block__number-note {
     font-family: "roboto";
     font-size: 12px;
     margin: 0px;
 }
-.major-block__block-down{
+
+.major-block__block-down {
     display: flex;
     justify-content: center;
     height: 50%;
 }
-.block-down__block-view{
+
+.block-down__block-view {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -309,23 +357,75 @@ body{
     border-radius: 8px 8px;
     background-color: #000000;
 }
-.block-view__text-view{
+
+.block-view__text-view {
     margin: 0px;
     font-size: 10px;
     color: #FFFFFF;
 }
 
 
-.content__block-right{
+.content__block-right {
     margin: 10px 7px 15px 0px;
+    width: 90%;
+    max-width: 400px;
 }
-.block-right__search{
+
+.block-right__block-above {
     display: flex;
-    width: 264px;
     height: 120px;
-    background-color:deeppink;
+    background-color: blueviolet;
 }
-.block-right__experience{
+
+.block-above__block-search {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+}
+
+.block-search__block-search-img {
+    width: 75%;
+    height: 38px;
+    border-radius: 10px 10px;
+    background-color: #F5F5F7;
+
+}
+
+.block-search-img__img-search {
+    width: 20px;
+    margin: 8px 0px 0px 9px;
+}
+
+.block-search__bell-block {
+    width: 10%;
+    height: 100%;
+}
+
+.bell-block__img-bell {
+    width: 20px;
+    margin: 6px 0px 0px 3px;
+}
+
+.block-search__photo-block {
+    width: 15%;
+    height: 100%;
+}
+
+.photo-block__img-photo {
+    width: 21px;
+    margin: 8px 0px 0px 3px;
+}
+
+.photo-block__img-v {
+    width: 10px;
+    margin-bottom: 4px;
+    margin-left: -2px;
+}
+
+
+
+.block-right__experience {
     display: block;
     width: 264px;
     height: 300px;
@@ -338,26 +438,24 @@ body{
 
 
 /*Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) { 
-    body{
+@media (min-width: 576px) {
+    body {
         background-color: red;
     }
- }
+}
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { 
-    body{
+@media (min-width: 768px) {
+    body {
         background-color: blue;
     }
 }
 
 /*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) { 
-
- }
+@media (min-width: 992px) {}
 
 /*X-Large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { }
+@media (min-width: 1200px) {}
 
 /*XX-Large devices (larger desktops, 1400px and up)*/
-@media (min-width: 1400px) {  }
+@media (min-width: 1400px) {}

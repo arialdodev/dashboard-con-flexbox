@@ -85,20 +85,20 @@
                 <p class="all-courses__languages-text">.Net</p>
                 <p class="all-courses__languages-text">C#</p>
               </div>
-              <div class="courses__language-blocks">
-                <div class="language-blocks__block-html">
-                  <div class="block-html__block-img-html">
+
+              <template id="template-language-blocks">
+                <div id="language-blocks">
+                  <div class="language-blocks__block-img-logo">
                     <img
-                      src="images/logo-html.svg"
-                      alt="logo-html"
-                      class="block-img-html__img-html"
+                      alt="logos-languages"
+                      class="block-img-logo__images-languages"
                     />
                   </div>
-                  <div class="block-html__html-text-block">
-                    <p class="html-text-block__html-text">Html</p>
-                    <p class="html-text-block__gay-text">El mas Gay</p>
+                  <div class="language-blocks__languages-text-block">
+                    <p class="languages-text-block__name-languages-text"></p>
+                    <p class="languages-text-block__description-text"></p>
                   </div>
-                  <div class="block-html__major-block">
+                  <div class="language-blocks__major-block">
                     <div class="major-block__block-up">
                       <div class="block-up__clock-block">
                         <img
@@ -108,7 +108,7 @@
                         />
                       </div>
                       <div class="block-up__time-block">
-                        <p class="time-block__text-time">6h 30min</p>
+                        <p class="time-block__text-time"></p>
                       </div>
                       <div class="block-up__flame-block">
                         <img
@@ -118,25 +118,52 @@
                         />
                       </div>
                       <div class="block-up__note-block">
-                        <p class="note-block__number-note">4.9</p>
+                        <p class="note-block__number-note"></p>
                       </div>
                     </div>
                     <div class="major-block__block-down">
                       <div class="block-down__block-view">
-                        <p class="block-view__text-view">view corse</p>
+                        <p class="block-view__text-view">view course</p>
                       </div>
                     </div>
                   </div>
                 </div>
-              </div>
+              </template>
+              <div id="coursesLanguage"></div>
             </div>
           </div>
         </div>
         <div class="content__block-right">
-          <div class="block-right__search"></div>
+          <div class="block-right__block-above">
+            <div class="block-above__block-search">
+              <div class="block-search__block-search-img">
+                <img
+                  src="images/search.svg"
+                  alt="search"
+                  class="block-search-img__img-search"
+                />
+              </div>
+              <div class="block-search__bell-block">
+                <img
+                  src="images/bell.svg"
+                  alt="bell"
+                  class="bell-block__img-bell"
+                />
+              </div>
+              <div class="block-search__photo-block">
+                <img
+                  src="images/photo.svg"
+                  alt="photo"
+                  class="photo-block__img-photo"
+                />
+                <img src="images/v.svg" alt="v" class="photo-block__img-v" />
+              </div>
+            </div>
+          </div>
           <div class="block-right__experience"></div>
         </div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
