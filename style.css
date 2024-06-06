@@ -372,16 +372,13 @@ body {
 }
 
 .block-right__block-above {
-    display: flex;
     height: 120px;
-    background-color: blueviolet;
 }
 
 .block-above__block-search {
     display: flex;
     width: 100%;
-    height: 60px;
-    background-color: white;
+    height: 50px;
 }
 
 .block-search__block-search-img {
@@ -423,6 +420,51 @@ body {
     margin-left: -2px;
 }
 
+.block-above__number-courses {
+    display: flex;
+    width: 100%;
+    height: 65px;
+}
+
+.number-courses__courses-onnline {
+    display: flex;
+    width: 45%;
+    margin-right: 8px;
+    border-radius: 12px 12px;
+    background-color: #F5F5F7;
+}
+
+.courses-onnline__text-eleven {
+    font-family: "Poetsen One";
+    margin: 11px 7px 0px 13px;
+    font-size: 37px;
+}
+
+.courses-onnline__text-courses {
+    font-family: "roboto";
+    font-size: 14px;
+    margin-top: 18px;
+}
+
+.number-courses__cursos-presenciales {
+    display: flex;
+    width: 50%;
+    border-radius: 12px 12px;
+    background-color: #F5F5F7;
+}
+
+.cursos-presenciales__text-four {
+    font-family: "Poetsen One";
+    margin: 11px 7px 0px 13px;
+    font-size: 37px;
+}
+
+.cursos-presenciales__text-cursos {
+    font-family: "roboto";
+    font-size: 14px;
+    margin-top: 18px;
+}
+
 
 
 .block-right__experience {
@@ -432,8 +474,6 @@ body {
     margin: 5px 0px 0px 0px;
     background-color: darkmagenta;
 }
-
-
 
 
 
