@@ -467,13 +467,72 @@ body {
 
 
 
-.block-right__experience {
+.block-right__block-experience {
     display: block;
-    width: 264px;
     height: 300px;
-    margin: 5px 0px 0px 0px;
-    background-color: darkmagenta;
+    margin: 15px 0px 0px 0px;
 }
+.block-experience__block-my-level{
+
+}
+.block-my-level__text-my-level{
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Poetsen One";
+}
+.block-experience__double-block{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.double-block__learning-block{
+    width: 53%;
+
+}
+.learning-block__learning-text{
+    font-size: 13px;
+    font-family: "Poetsen One";
+    margin: 0px;
+}
+.double-block__block-my-courses{
+    margin-left: 18px;
+    width: 39%;
+}
+.block-my-courses__text-my-courses{
+    font-family: "Poetsen One";
+    margin: 0px;
+    font-size: 13px;
+}
+.double-block__block-of-wekly{
+    margin-top: 11px;
+}
+.block-of-wekly__wekly-text-block{
+    display: flex;
+    width: 106px;
+    height: 31px;
+    border-radius: 15px 15px;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F5F7;  
+}
+.wekly-text-block__text-wekly{
+    font-size: 16px;
+    font-family: "roboto";
+    font-weight: 700;
+}
+.wekly-text-block__img-v{
+    width: 10px;
+    margin: 6px 0px 0px 2px;
+}
+.double-block__graphic-block{
+    width: 100%;
+    margin-top: 6px;
+}
+.graphic-block__img-graphic{
+    width: 106%;
+}
+
 
 
 
