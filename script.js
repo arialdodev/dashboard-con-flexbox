@@ -3,7 +3,7 @@ const listCourses = [
     logolanguage: "images/logo-html.svg",
     nameCourse: "Html",
     namePerson: "El mas Gay",
-    time: "6h 30min",
+    time: "10h 30min",
     numberNote: "4.9",
   },
   {
@@ -31,7 +31,7 @@ const listCourses = [
     logolanguage: "images/logo-react.svg",
     nameCourse: "React",
     namePerson: "Mas usado",
-    time: "0h 0min",
+    time: "00h 00min",
     numberNote: "0.0",
   },
 ];
