@@ -3,10 +3,17 @@
 body {
     margin: 0%;
     padding: 0%;
+    font-family: "roboto";
+}
+
+.titles {
+    font-family: "Poetsen One";
 }
 
 .container {
     display: flex;
+    position: absolute;
+    inset: 0;
 }
 
 .container__sidebar {
@@ -96,8 +103,6 @@ body {
 
 .text__text-hello {
     display: flex;
-    font-family: "Poetsen One";
-    color: #0C0B0B;
     justify-content: center;
     font-size: 22px;
     margin-left: -8px;
@@ -106,7 +111,6 @@ body {
 
 .text__text-best {
     display: flex;
-    font-family: "Roboto";
     color: #7B7B7B;
     justify-content: center;
     margin-top: -22px;
@@ -164,14 +168,12 @@ body {
 }
 
 .block-text__text-english {
-    font-family: "Poetsen One";
     margin-top: 5px;
     font-size: 14px;
     color: #000000;
 }
 
 .block-text__text-name {
-    font-family: "Roboto";
     font-size: 10px;
     font-weight: 400;
     margin-top: -12px;
@@ -200,7 +202,6 @@ body {
     border-radius: 7px 7px;
     align-items: center;
     justify-content: center;
-    font-family: "Poetsen One";
     background: black;
 }
 
@@ -251,12 +252,14 @@ body {
 }
 
 
-#courses-language {}
+#courses-language {
+    display: none;
+}
 
 #language-blocks {
     display: flex;
     justify-content: space-between;
-    height: 24%;
+    height: 35%;
     padding: 5px;
     border-radius: 8px 8px;
     margin-bottom: 8px;
@@ -290,7 +293,6 @@ body {
 }
 
 .languages-text-block__description-text {
-    font-family: "roboto";
     margin: -4px 0px 0px 0px;
     font-size: 14px;
 }
@@ -324,12 +326,11 @@ body {
 }
 
 .time-block__text-time {
-    font-family: "roboto";
     font-size: 11px;
     margin: 0px;
 }
 
-.block-up__flame-block {}
+.block-up__flame-block { display: none;}
 
 .flame-block__img-flame {
     width: 16px;
@@ -341,7 +342,6 @@ body {
 }
 
 .note-block__number-note {
-    font-family: "roboto";
     font-size: 12px;
     margin: 0px;
 }
@@ -437,18 +437,19 @@ body {
     margin-right: 8px;
     border-radius: 12px 12px;
     background-color: #F5F5F7;
+    justify-content: center;
 }
 
 .courses-onnline__text-eleven {
-    font-family: "Poetsen One";
     margin: 11px 7px 0px 13px;
     font-size: 37px;
 }
-.courses-onnline__block-text-onnline{
+
+.courses-onnline__block-text-onnline {
     margin-top: 18px;
 }
+
 .block-text-onnline__text-courses {
-    font-family: "roboto";
     font-size: 14px;
     margin: 0px;
 }
@@ -458,18 +459,19 @@ body {
     width: 50%;
     border-radius: 12px 12px;
     background-color: #F5F5F7;
+    justify-content: center;
 }
 
 .cursos-presenciales__text-four {
-    font-family: "Poetsen One";
     margin: 11px 7px 0px 13px;
     font-size: 37px;
 }
-.cursos-presenciales__block-text-presenciales{
+
+.cursos-presenciales__block-text-presenciales {
     margin-top: 18px;
 }
-.block-text-presenciales__text-cursos{
-    font-family: "roboto";
+
+.block-text-presenciales__text-cursos {
     font-size: 14px;
     margin: 0px;
 }
@@ -480,106 +482,120 @@ body {
     display: block;
     margin: 15px 0px 0px 0px;
 }
-.block-experience__block-my-level{
 
+.block-experience__block-my-level { 
+    display: none;
 }
-.block-my-level__text-my-level{
+
+.block-my-level__text-my-level {
     margin: 0px;
     font-size: 15px;
     font-weight: 600;
-    font-family: "Poetsen One";
 }
-.block-experience__double-block{
+
+.block-experience__double-block {
     display: flex;
     flex-wrap: wrap;
     margin-top: 10px;
 }
-.double-block__learning-block{
+
+.double-block__learning-block {
     width: 131px;
     margin-bottom: 11px;
 }
-.learning-block__learning-text{
+
+.learning-block__learning-text {
     font-size: 13px;
-    font-family: "Poetsen One";
     margin: 0px;
 }
-.double-block__block-my-courses{
+
+.double-block__block-my-courses {
     margin-left: 18px;
     width: 106px;
 }
-.block-my-courses__text-my-courses{
-    font-family: "Poetsen One";
+
+.block-my-courses__text-my-courses {
     margin: 0px;
     font-size: 13px;
 }
-.double-block__block-of-wekly{
+
+.double-block__block-of-wekly {
     margin-top: -5px;
 }
-.block-of-wekly__wekly-text-block{
+
+.block-of-wekly__wekly-text-block {
     display: flex;
     width: 106px;
     height: 31px;
     border-radius: 15px 15px;
     align-items: center;
     justify-content: center;
-    background-color: #F5F5F7;  
+    background-color: #F5F5F7;
 }
-.wekly-text-block__text-wekly{
+
+.wekly-text-block__text-wekly {
     font-size: 16px;
-    font-family: "roboto";
     font-weight: 700;
 }
-.wekly-text-block__img-v{
+
+.wekly-text-block__img-v {
     width: 10px;
     margin: 6px 0px 0px 2px;
 }
-.double-block__graphic-block{
+
+.double-block__graphic-block {
     width: 100%;
     margin-top: 6px;
 }
-.graphic-block__img-graphic{
+
+.graphic-block__img-graphic {
     width: 106%;
 }
 
-.block-right__container-experience{
+.block-right__container-experience {
     display: flex;
-    margin-top: 18px;  
+    margin-top: 18px;
     background-color: #F5F5F9;
     width: 100%;
     height: 113px;
     padding-bottom: 10px;
     border-radius: 15px 15px;
 }
-.container-experience__block-left{
+
+.container-experience__block-left {
     width: 60%;
 }
-.block-left__block-text-experience{
+
+.block-left__block-text-experience {
     width: 100%;
     height: 18%;
     margin-top: 18px;
 }
-.block-text-experience__text-experience{
+
+.block-text-experience__text-experience {
     margin: -1px 0px 0px 7px;
     font-size: 16px;
-    font-family: "Poetsen One";
     font-weight: 600;
 }
-.container-experience__block-description{
+
+.container-experience__block-description {
     width: 100%;
     height: 30%;
 }
-.block-description__text-description{
+
+.block-description__text-description {
     font-size: 13px;
-    font-family: "roboto";
     margin: 4px 0px 0px 7px;
 }
-.block-left__block-go{
+
+.block-left__block-go {
     display: flex;
     width: 100%;
     align-items: center;
     margin-top: 4px;
 }
-.block-go__block-black-go{
+
+.block-go__block-black-go {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -589,21 +605,22 @@ body {
     margin-left: 7px;
     border-radius: 10px 10px;
 }
-.block-black-go__text-go{
+
+.block-black-go__text-go {
     font-size: 13px;
     font-weight: 500;
-    font-family: "roboto";
     color: #CDCCCC;
     margin: 0px;
 }
 
 
-.container-experience__block-riht{
+.container-experience__block-right {
     width: 40%;
     height: 100px;
 
 }
-.block-riht__img-brain{
+
+.block-riht__img-brain {
     width: 73px;
     position: relative;
     top: 19px;
@@ -616,22 +633,161 @@ body {
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
     body {
-        background-color: red;
+
+        .container__content {
+            justify-content: center;
+        }
+
+        .content__block-left {
+            width: 100%;
+            max-width: 481px;
+        }
+
+        .content__block-right {
+            width: 100%;
+            max-width: 481px;
+        }
     }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     body {
-        background-color: blue;
+
+        .container__sidebar {
+            display: flex;
+            width: 40px;
+            justify-content: center;
+            border-radius: 15px 15px;
+            box-shadow: 4px 2px 20px -2px #363636;
+            top: 8px;
+            bottom: 8px;
+            left: 15px;
+        }
+
+        .content__block-left {
+            max-width: 568px;
+        }
+
+        .content__block-right {
+            max-width: 568px;
+        }
+
+        .sidebar__logo {
+            margin: 0px 0px 48px 8px;
+        }
+
+        #sidebar__logo-img {
+            width: 30px;
+        }
+
+        .sidebar__center>img {
+            width: 21px;
+        }
+
+        #sidebar__leave-img {
+            width: 28px;
+        }
+
+        .block-text-experience__text-experience {
+            margin: -4px 0px 0px 7px;
+            font-size: 18px;
+        }
+
+        .block-description__text-description {
+            font-size: 14px;
+        }
+
+        .block-left__block-go {
+            margin-top: 6px;
+        }
+
+        .block-riht__img-brain {
+            width: 98px;
+            top: 10px;
+        }
     }
 }
 
 /*Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    body {
+
+        .container__sidebar {
+            width: 58px;
+            min-height: 300px;
+        }
+
+        .sidebar__logo {
+            margin: 11px 0px 40px 8px;
+        }
+
+        #sidebar__logo-img {
+            width: 32px;
+        }
+
+        .sidebar__center {
+            height: 57%;
+        }
+
+        .sidebar__center>img {
+            width: 23px;
+        }
+
+        .sidebar__leave {
+            margin-top: 18px;
+        }
+
+        #sidebar__leave-img {
+            width: 29px;
+        }
+
+        .container__content {
+            width: 100%;
+            justify-content: space-around;
+            flex-wrap: inherit;
+            margin-left: 118px;
+            margin-right: 33px;
+        }
+
+        .content__block-left {
+            width: 128%;
+        }
+
+        .content-level__block-level {
+            justify-content: space-between;
+        }
+
+        .block-left__courses {
+            margin-top: 21px;
+        }
+
+        .block-left__all-courses {
+            justify-content: inherit;
+        }
+
+        .all-courses__languages-text {
+            margin: 0px 0px 0px 18px;
+        }
+
+        .content__block-right {
+            width: 90%;
+            margin: 40px 7px 15px 52px;
+        }
+    }
+}
 
 /*X-Large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    body {
+        background-color: chocolate;
+
+    }
+}
 
 /*XX-Large devices (larger desktops, 1400px and up)*/
-@media (min-width: 1400px) {}
+@media (min-width: 1400px) {
+    body {
+        background-color: hotpink;
+    }
+}
