@@ -114,7 +114,6 @@ body {
     color: #7B7B7B;
     justify-content: center;
     margin-top: -22px;
-    font-size: 15px;
     margin-left: 3px;
 }
 
@@ -330,7 +329,7 @@ body {
     margin: 0px;
 }
 
-.block-up__flame-block { display: none;}
+.block-up__flame-block {}
 
 .flame-block__img-flame {
     width: 16px;
@@ -483,9 +482,7 @@ body {
     margin: 15px 0px 0px 0px;
 }
 
-.block-experience__block-my-level { 
-    display: none;
-}
+.block-experience__block-my-level {}
 
 .block-my-level__text-my-level {
     margin: 0px;
@@ -654,6 +651,7 @@ body {
 @media (min-width: 768px) {
     body {
 
+
         .container__sidebar {
             display: flex;
             width: 40px;
@@ -713,6 +711,10 @@ body {
 @media (min-width: 992px) {
     body {
 
+        .subtitle {
+            font-size: 15px;
+        }
+
         .container__sidebar {
             width: 58px;
             min-height: 300px;
@@ -754,8 +756,53 @@ body {
             width: 128%;
         }
 
+        .hello__content-level {
+            height: 60px;
+        }
+
         .content-level__block-level {
             justify-content: space-between;
+            height: 52px;
+            align-items: center;
+        }
+
+        .block-level__xbox-block {
+            width: 47px;
+            height: 88%;
+        }
+
+        .block-level__xbox-img {
+            width: 31px;
+        }
+
+        .block-level__block-text {
+            margin-right: 33px;
+        }
+
+        .block-text__text-english {
+            margin-top: 10px;
+        }
+
+        .block-text__text-name {
+            font-size: 12px;
+        }
+
+        .block-level__block-percentage {
+            margin-top: 3px;
+            margin-right: 57px;
+            width: initial;
+        }
+
+        .block-percentage__percentage-img {
+            width: 29px;
+        }
+
+        .block-continue__continue-text {
+            width: 99px;
+            height: 32px;
+            font-size: 14px;
+            border-radius: 7px 7px;
+            margin: 0px;
         }
 
         .block-left__courses {
@@ -770,9 +817,22 @@ body {
             margin: 0px 0px 0px 18px;
         }
 
+        .block-down__block-view {
+            width: 107px;
+            height: 37px;
+        }
+
+        .block-view__text-view {
+            font-size: 11px;
+        }
+
         .content__block-right {
             width: 90%;
             margin: 40px 7px 15px 52px;
+        }
+
+        .block-my-courses__text-my-courses {
+            color: #CDCCCC;
         }
     }
 }
@@ -780,7 +840,22 @@ body {
 /*X-Large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
     body {
-        background-color: chocolate;
+
+        .container {
+            justify-content: center;
+        }
+
+        .container__content {
+            justify-content: center;
+        }
+
+        .content__block-left {
+            max-width: 580px;
+        }
+
+        .content__block-right {
+            max-width: 436px;
+        }
 
     }
 }
@@ -788,6 +863,18 @@ body {
 /*XX-Large devices (larger desktops, 1400px and up)*/
 @media (min-width: 1400px) {
     body {
-        background-color: hotpink;
+
+
+        .container {
+            justify-content: center;
+        }
+
+        .container__sidebar {
+            position: initial;
+        }
+
+        .container__content {
+            width: inherit;
+        }
     }
 }
