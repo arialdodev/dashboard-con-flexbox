@@ -2,11 +2,15 @@
 
 ## Lo Aprendido
 
-En el desarrollo de mi reciente proyecto, he profundizado considerablemente en diversas tecnologías y metodologías esenciales para la creación de aplicaciones web modernas. Utilizando *HTML, **CSS* y *JavaScript, he implementado la convención **BEM* (Block, Element, Modifier) para mantener un código CSS limpio y estructurado, lo que facilitó el mantenimiento y la escalabilidad del proyecto.
+Diseño del cual me guie <a href="https://co.pinterest.com/pin/618189486381336452/" target="_blank"> *Diseño flex-blox*</a> .
 
-Además, me familiaricé con varios comandos de *GitHub, lo que me permitió gestionar el control de versiones de manera más eficiente, incluyendo el uso de convenciones para la creación de commits claros y descriptivos. La adaptabilidad del diseño también fue una prioridad, lograda a través de técnicas de **diseño responsivo* y la flexibilidad del *Flexbox*, garantizando que la interfaz se vea y funcione bien en una variedad de dispositivos.
+Primero hice el diseño en Adobe XD, hice el diseño de teléfono, tablet y portátil para poder iniciar a pasar el diseño en código.
 
-Asimismo, aprendí a clonar elementos con *JavaScript*, mejorando así la interactividad de la aplicación. Este proyecto no solo reforzó mis habilidades técnicas, sino que también mejoró mi capacidad para seguir mejores prácticas de desarrollo web.
+Proyecto flexbox, inicié aprendiendo flexbox con un juego de ranitas <a href="https://flexboxfroggy.com/#es" target="_blank"> *FLEXBOX FROGGY*</a>. Después aprendí sobre los contenedores en *HTML* y, gracias a mi hermano mayor, pude abrir mi mente sobre los contenedores y comencé a aprender sobre las convenciones de los nombres en *CSS3*. Utilicé la convención *"BEM"*, cuyas siglas son "Block, Element, Modifier" <a href="https://www.freecodecamp.org/news/css-naming-conventions-that-will-save-you-hours-of-debugging-35cea737d849/" target="_blank">BEM</a>. Gracias a esa convención, pude mantener mi código limpio y legible.
+
+Comencé a aprender sobre GitHub y me familiaricé con los comandos de *Git*, aprendiendo a enviar commits desde la consola y desde "Visual Studio Code". Para nombrar los commits, me guié por la página <a href="https://www.conventionalcommits.org/es/v1.0.0/" target="_blank">*Convencional Commits*</a> y utilicé una guía de mensajes con emojis para enviar mis commits y hacerlos más legibles <a href="https://gitmoji.dev/" target="_blank">Gitmoji</a>.
+
+También aprendí sobre cómo clonar partes de código con la tecnología JavaScript, lo cual me ahorró mucho tiempo y logré que mi código HTML y CSS3 no fuera tan extenso.
 
 ---
 
@@ -16,8 +20,28 @@ mas informacion, contáctame por email: arialdodiaz8@gmail.com
 
 <table>
 <tr>
-<td align="center">![image](https://github.com/arialdodev/dashboard-con-flexbox/assets/139005415/4afc94fe-0e74-4224-b66a-731981b16f3e)</td>
-<td align="center"><a href="https://developer.mozilla.org/es/docs/Web/CSS"><img src="images/css3.svg" width="80"><br>CSS</a></td>
-<td align="center"><a href="https://developer.mozilla.org/es/docs/Web/JavaScript"><img src="images/javascript.svg" width="80"><br>JavaScript</a></td>
+<td align="center"><img src="images/html-logo.png" width="80"></td>
+<td align="center"><img src="images/css-logo.png" width="57"></td>
+<td align="center"><img src="images/javascript-logo.png" width="145"></td>
 </tr>
 </table>
+
+---
+## Adobe XD: diseño de telefono, tablet y portatil.
+<table>
+<tr>
+<td align="center"><img src="images/phone-Xd.jpg" width="120"></td>
+<td align="center"><img src="images/tablet-Xd.jpg" width="130"></td>
+<td align="center"><img src="images/portatil-Xd.jpg" width="180"></td>
+</tr>
+</table>
+
+## Juego de Ranitas <a href="https://flexboxfroggy.com/#es" target="_blank"> *FLEXBOX FROGGY*</a>.
+<img src="images/frog.jpg" width="500">
+
+## Convencion <a href="https://www.freecodecamp.org/news/css-naming-conventions-that-will-save-you-hours-of-debugging-35cea737d849/" target="_blank"> *BEM*</a>.
+<img src="images/conventional-bem.png" width="500">
+
+## <a href="https://flexboxfroggy.com/#es" target="_blank"> Gitmoji</a>.
+<img src="images/emoji.jpg" width="500">
+
