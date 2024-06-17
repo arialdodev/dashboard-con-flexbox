@@ -1,3 +1,5 @@
+![image](https://github.com/arialdodev/dashboard-con-flexbox/assets/139005415/6b78684a-8d94-4c2a-9cb0-c559633fddf5)
+
 ## Lo Aprendido
 
 En el desarrollo de mi reciente proyecto, he profundizado considerablemente en diversas tecnologías y metodologías esenciales para la creación de aplicaciones web modernas. Utilizando *HTML, **CSS* y *JavaScript, he implementado la convención **BEM* (Block, Element, Modifier) para mantener un código CSS limpio y estructurado, lo que facilitó el mantenimiento y la escalabilidad del proyecto.
