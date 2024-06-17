@@ -16,7 +16,7 @@ mas informacion, contáctame por email: arialdodiaz8@gmail.com
 
 <table>
 <tr>
-<td align="center"><a href="https://developer.mozilla.org/es/docs/Web/HTML"><img src="images/html.svg" width="80"><br>HTML</a></td>
+<td align="center">![image](https://github.com/arialdodev/dashboard-con-flexbox/assets/139005415/4afc94fe-0e74-4224-b66a-731981b16f3e)</td>
 <td align="center"><a href="https://developer.mozilla.org/es/docs/Web/CSS"><img src="images/css3.svg" width="80"><br>CSS</a></td>
 <td align="center"><a href="https://developer.mozilla.org/es/docs/Web/JavaScript"><img src="images/javascript.svg" width="80"><br>JavaScript</a></td>
 </tr>
