@@ -1,5 +1,3 @@
-[![This is a sample image.](images/HEADER.svg "Heading link")](https://github.com/elverdiaz1016/dashboard-with-flex-box)
-
 ## Lo Aprendido
 
 En el desarrollo de mi reciente proyecto, he profundizado considerablemente en diversas tecnologías y metodologías esenciales para la creación de aplicaciones web modernas. Utilizando *HTML, **CSS* y *JavaScript, he implementado la convención **BEM* (Block, Element, Modifier) para mantener un código CSS limpio y estructurado, lo que facilitó el mantenimiento y la escalabilidad del proyecto.
@@ -12,7 +10,7 @@ Asimismo, aprendí a clonar elementos con *JavaScript*, mejorando así la intera
 
 ## Lenguajes
 
-Para cualquier pregunta, contáctame por email: diazelver1016@gmail.com
+mas informacion, contáctame por email: arialdodiaz8@gmail.com
 
 <table>
 <tr>
